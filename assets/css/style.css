@@ -90,6 +90,8 @@ main{
     background-color: blueviolet;
     /* makes main element take up any extra space to puch footer down.*/
     flex: 1 0 auto;
+    margin-top: 47px;
+    
 }
 
 /* Footer */
