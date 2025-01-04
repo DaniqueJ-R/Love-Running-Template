@@ -19,7 +19,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -87,7 +89,6 @@ nav {
 
 /* Main */
 main {
-    background-color: aqua;
     /* makes main element take up any extra space to puch footer down.*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -114,8 +115,37 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
+}
+
+
+/*Reasons section*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 230%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits> div >div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -171,8 +201,9 @@ main {
         /* Push main content down to accommodate larger header */
         margin-top: 76px;
     }
+
     /*Hero*/
-    #cover-text{
+    #cover-text {
         width: 300px;
         right: 50px;
     }
