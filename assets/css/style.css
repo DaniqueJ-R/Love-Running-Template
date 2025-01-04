@@ -19,8 +19,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
-
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 /* Header */
 header {
@@ -39,13 +43,6 @@ header a {
     text-decoration: none;
     color: inherit;
 
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 /*Nav Toggle*/
@@ -98,10 +95,16 @@ main {
 }
 
 /*Hero section*/
-#hero{
+#hero {
     height: 1000px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/happy-athletic-women-having-fun-while-jogging-with-group-people-nature.jpg") no-repeat center center/cover;
+}
+
+#cover-text{
+    /*last rgba numb sets oppacity for background*/
+background-color: rgba(261, 109, 107, .7);
+font-size: 130%;
 }
 
 /* Footer */
@@ -113,7 +116,7 @@ main {
     list-style: none;
 }
 
-#socials i{
+#socials i {
     color: #3a3a3a;
     padding: 5%;
     font-size: 160%;
@@ -162,7 +165,7 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
