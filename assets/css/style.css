@@ -99,12 +99,25 @@ main {
     height: 1000px;
     width: 100%;
     background: url("../images/happy-athletic-women-having-fun-while-jogging-with-group-people-nature.jpg") no-repeat center center/cover;
+
+
+
 }
 
 #cover-text{
     /*last rgba numb sets oppacity for background*/
-background-color: rgba(261, 109, 107, .7);
-font-size: 130%;
+    background-color: rgba(241, 109, 107, .8);
+    font-size: 150%;
+    position: absolute;
+    bottom: 60px;
+    width: 70%;
+    min-height: 200px;
+    padding-top: 26px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 /* Footer */
