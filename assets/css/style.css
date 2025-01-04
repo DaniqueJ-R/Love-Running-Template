@@ -132,7 +132,7 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits> div >div {
+#benefits>div>div {
     margin-bottom: 20px;
     line-height: 20px;
 }
@@ -145,6 +145,26 @@ main {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
+/*Circle image benefits seciton*/
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/portrait-active-woman-running.jpg") no-repeat top center/cover;
+    margin-bottom: 20px;
+    /*border makes image a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-photo {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
 
 /* Footer */
 #socials {
