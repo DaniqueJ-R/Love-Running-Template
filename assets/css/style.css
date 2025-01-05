@@ -164,6 +164,34 @@ main {
     justify-content: center;
 }
 
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    /*Hanles responsivness without the need for media query*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /*This will not wrap the text on screens 400px and lower.
+    Each div will expand to available space*/
+    flex-basis: 200px;
+    flex-grow: 1;
+     /* Creates a grid of meetup time divs over the background image */
+     border: 2px solid #fafafa;
+}
+
+#times h3 {
+    /*overrides default h3 colour set for page*/
+    color: #fafafa;
+}
+
+
+
 
 
 /* Footer */
@@ -259,7 +287,7 @@ main {
     /* Reasons Section */
     #benefits {
         display: flex;
-        flex-direction: row;       
+        flex-direction: row;
     }
 
     #benefits>div {
@@ -274,11 +302,11 @@ main {
         order: 1;
     }
 
-    #benefits-physical>div{
+    #benefits-physical>div {
         align-self: flex-start;
     }
 
-    #benefits-mental>div{
+    #benefits-mental>div {
         align-self: flex-end;
     }
 }
