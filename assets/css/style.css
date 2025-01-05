@@ -222,6 +222,14 @@ line-height: 1em;
     font-size: 160%;
 }
 
+/*Media query break point: device over 576px*/
+@media screen and (min-width: 576px){
+#photos{
+    column-count: 2;
+    column-gap: 0;
+}
+}
+
 /*Media query break point: Tablet or lager*/
 @media screen and (min-width: 768px) {
 
@@ -284,6 +292,10 @@ line-height: 1em;
         text-align: end;
         align-self: flex-end;
     }
+
+    #photos{
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -291,6 +303,10 @@ line-height: 1em;
 
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos{
+        column-count: 4;
     }
 }
 
@@ -321,5 +337,8 @@ line-height: 1em;
 
     #benefits-mental>div {
         align-self: flex-end;
+    }
+    #photos{
+        column-count: 5;
     }
 }
